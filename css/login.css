@@ -3,15 +3,14 @@
     position: absolute; 
     top: 0px; 
     left: 0px; 
-    width: 780px; 
-    height: 1080px; 
+    height: 890px; 
     border-radius: 0px; 
 }
 
 header {
     position: absolute; 
-    top: 179px; 
-    left: 960px; 
+    top: 100px; 
+    left: 910px; 
     width: 729px; 
     height: 71px; 
     font-family: Epilogue; /* Heading */
@@ -24,8 +23,8 @@ header {
 /* Textbox 1 */
 .textbox {
     position: absolute; 
-    top: 307px; 
-    left: 960px; 
+    top: 250px; 
+    left: 910px; 
     opacity: 1; 
   }
   .textbox input {
@@ -65,8 +64,8 @@ header {
   /* Textbox 2 */
 .textbox2 {
     position: absolute; 
-    top: 444px; 
-    left: 960px; 
+    top: 380px; 
+    left: 910px; 
     opacity: 1; 
   }
   .textbox2 input {
@@ -115,8 +114,8 @@ header {
 /* Button 1 */
 .button {
     position: absolute; 
-    top: 573px; 
-    left: 960px; 
+    top: 530px; 
+    left: 910px; 
     width: 729px; 
     height: 70px; 
     padding: 0 20px; 
@@ -150,8 +149,8 @@ header {
 /* Button 2 */
 .button2 {
     position: absolute; 
-    top: 683px; 
-    left: 960px; 
+    top: 640px; 
+    left: 910px; 
     width: 729px; 
     height: 76px; 
     padding: 0 20px; 
@@ -186,4 +185,21 @@ header {
   /* Disabled */
   .button2:disabled {
     opacity: 0.4; 
+  }
+
+/* Text 2 */
+.accountManagment {
+    position: absolute; 
+    top: 750px; 
+    left: 950px; 
+    width: 630px; 
+    height: 72px; 
+    font-family: Inter; /* Body */
+    font-size: 24px; 
+    line-height: 36px; 
+    color: #171A1FFF; /* neutral-900 */
+  }
+
+  .accountManagment p{
+    text-align: center; 
   }
