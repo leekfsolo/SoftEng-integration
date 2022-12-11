@@ -197,3 +197,55 @@ body {
     color: red;
     cursor: pointer;
 }
+
+.feedback-body {
+    margin-top: 150px;
+    margin-left: 250px;
+    display: flex;
+    height: 322px;
+    width: auto;
+}
+
+.box-left {
+    border-width: 2px;
+    border-style:solid;
+    border-color: gray;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 312px;
+    width: 40%;
+}
+.box-left h2{
+    margin-top: 50px;
+    color: lightslategray;
+    font-size: 50px;
+}
+
+.box-left button{
+    margin-top: 50px;
+    color: #fff;
+    background-color: lightseagreen;
+    border: none;
+    padding: 10px;
+}
+.box-right {
+    background-image: url(/images/feedback.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.combo {
+    margin-top: 100px;
+    /* border-width: 3px;
+    border-style: solid; */
+}
+.combo .title-combo h2{
+    text-align: center;
+}
+.combo .title-combo .combo-content {
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    font-size: larger;
+}
