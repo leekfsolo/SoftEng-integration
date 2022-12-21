@@ -1,7 +1,5 @@
 /* import constants từ file constants.css để sử dụng: var(--{tên biến}) */
 @import "./constants.css";
-/* import constants từ file constants.css để sử dụng: var(--{tên biến}) */
-@import "./constants.css";
 
 body {
   background-color: white;
