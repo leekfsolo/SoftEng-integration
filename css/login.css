@@ -15,22 +15,22 @@ body {
 
 header {
   position: absolute;
-  top: 100px;
-  left: 910px;
-  width: 729px;
-  height: 71px;
+  top: 10vh;
+  left: 55vw;
+  width: 50vw;
+  height: 50vw;
   font-family: Epilogue; /* Heading */
-  font-size: 48px;
+  font-size: 3vw;
   font-weight: bold;
-  line-height: 68px;
+  line-height: 3vw;
   color: #171a1fff; /* neutral-900 */
 }
 
 /* Textbox 1 */
 .textbox {
   position: absolute;
-  top: 250px;
-  left: 910px;
+  top: 20vh;  
+  left: 55vw;
   opacity: 1;
 }
 .textbox input {
@@ -71,8 +71,8 @@ header {
 /* Textbox 2 */
 .textbox2 {
   position: absolute;
-  top: 380px;
-  left: 910px;
+  top: 35vh;  
+  left: 55vw;
   opacity: 1;
 }
 .textbox2 input {
@@ -122,11 +122,11 @@ header {
 /* Button 1 */
 .button {
   position: absolute;
-  top: 530px;
-  left: 910px;
-  width: 729px;
-  height: 70px;
-  padding: 0 20px;
+  top: 50vh;
+  left: 55vw;
+  width: 40vw;
+  height: 4vw;
+  padding: 0 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,10 +157,10 @@ header {
 /* Button 2 */
 .button2 {
   position: absolute;
-  top: 640px;
-  left: 910px;
-  width: 729px;
-  height: 76px;
+  top: 65vh;
+  left: 55vw;
+  width: 40vw;
+  height: 4vw;
   padding: 0 20px;
   display: flex;
   align-items: center;
@@ -198,8 +198,8 @@ header {
 /* Text 2 */
 .accountManagment {
   position: absolute;
-  top: 750px;
-  left: 950px;
+  top: 80vh;
+  left: 58vw;
   width: 630px;
   height: 72px;
   font-family: Inter; /* Body */
