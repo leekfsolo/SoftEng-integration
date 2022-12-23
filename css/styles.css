@@ -81,6 +81,33 @@ body {
   margin: 0;
 }
 
+.nav-login-user button {
+    height: 40px;
+    width: auto; 
+    margin: 5px;
+    padding: 0 10px;
+    color: #FFFFFFFF; /* white */
+    background: #00BDD6FF; /* primary-500 */
+    opacity: 1; 
+    border: none; 
+    border-radius: 8px; /* border-xl */
+  }
+
+/* Hover */
+.nav-login-user button:hover {
+color: #FFFFFFFF; /* white */
+background: #00A9C0FF; /* primary-550 */
+}
+/* Pressed */
+.nav-login-user button:hover:active {
+color: #FFFFFFFF; /* white */
+background: #0095A9FF; /* primary-600 */
+}
+/* Disabled */
+.nav-login-user button:disabled {
+opacity: 0.4; 
+}
+
 #slider {
   /* margin-top: 46.5px; */
   height: 600px;
