@@ -31,33 +31,37 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
-	<div class="imageContainer h-100 w-50">
-		<img class="image" src="../images/Food-central.jpg" alt="Food image"></img>
-	</div>
-
-	<div class="loginContainer h-100">
-		<header>Welcome</header>
-
-		<div class="textbox">
-			<p><label>Email:</label></p>
-			<input placeholder="example.email@gmail.com"></input>
+	<main class="d-flex">
+		<div class="imageContainer h-100 w-50">
+			<img class="image" src="../images/Food-central.jpg" alt="Food image"></img>
 		</div>
 
-		<div class="textbox2">
-			<p><label>Password:</label></p>
-			<input placeholder="Enter at least 8+ characters"></input>
-		</div>
+		<div class="loginContainer h-100 w-50">
+			<form action="#" id="login-form" class="d-flex flex-column gap-4">
+				<h1>Welcome</h1>
 
-		<div class="buttonContainer">
-			<button type="button" class="button">Sign in</button>
-			<button type="button" class="button2">Sign up with Facebook</button>
-		</div>
+				<div class="textbox">
+					<p><label>Email:</label></p>
+					<input placeholder="example.email@gmail.com"></input>
+				</div>
 
-		<div class="accountManagment">
-			<p a href="">Forget your Password</p>
-			<p>Don't have an account? <a href="https://www.w3schools.com/">Sign up</a></p>
+				<div class="textbox">
+					<p><label>Password:</label></p>
+					<input placeholder="Enter at least 8+ characters"></input>
+				</div>
+
+				<div class="buttonContainer">
+					<button type="button" class="button mb-4">Sign in</button>
+					<button type="button" class="button">Sign up with Facebook</button>
+				</div>
+
+				<div class="accountManagment">
+					<p a href="">Forget your Password?</p>
+					<p>Don't have an account? <a href="https://www.w3schools.com/">Sign up</a></p>
+				</div>
+			</form>
 		</div>
-	</div>
+	</main>
 </body>
 
 </html>

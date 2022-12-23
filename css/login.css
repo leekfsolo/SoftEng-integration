@@ -3,22 +3,25 @@ body {
   overflow: hidden;
 }
 
-.image {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100vh;
-  width: 50vw;
+.imageContainer {
+}
+
+.imageContainer img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   border-radius: 0px;
 }
 
-header {
-  position: absolute;
-  top: 10vh;
-  left: 55vw;
-  width: 50vw;
-  height: 50vw;
+.loginContainer {
+  padding: 40px;
+}
+
+form#login-form {
+  padding: 20px;
+}
+
+h1 {
   font-family: Epilogue; /* Heading */
   font-size: 3vw;
   font-weight: bold;
@@ -28,13 +31,10 @@ header {
 
 /* Textbox 1 */
 .textbox {
-  position: absolute;
-  top: 20vh;  
-  left: 55vw;
-  opacity: 1;
+  width: 100%;
 }
 .textbox input {
-  width: 729px;
+  width: 100%;
   height: 52px;
   padding-left: 20px;
   padding-right: 20px;
@@ -68,40 +68,6 @@ header {
   fill: #171a1fff; /* neutral-900 */
 }
 
-/* Textbox 2 */
-.textbox2 {
-  position: absolute;
-  top: 35vh;  
-  left: 55vw;
-  opacity: 1;
-}
-.textbox2 input {
-  width: 729px;
-  height: 52px;
-  padding-left: 20px;
-  padding-right: 52px;
-  font-family: Inter; /* Body */
-  font-size: 18px;
-  background: #ffffffff; /* white */
-  border-radius: 4px; /* border-m */
-  border-width: 1px;
-  border-color: #9095a0ff; /* neutral-500 */
-  outline: none;
-}
-.textbox2 svg {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 24px;
-  height: 24px;
-  fill: #171a1fff; /* neutral-900 */
-}
-.textbox2 label {
-  font-size: 25px;
-  line-height: 28px;
-  font-weight: bold;
-}
-
 /* focused */
 .textbox input:focused {
   color: #bcc1caff; /* neutral-400 */
@@ -121,12 +87,8 @@ header {
 
 /* Button 1 */
 .button {
-  position: absolute;
-  top: 50vh;
-  left: 55vw;
-  width: 40vw;
-  height: 4vw;
-  padding: 0 10vw;
+  width: 100%;
+  padding: 16px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,53 +117,12 @@ header {
 }
 
 /* Button 2 */
-.button2 {
-  position: absolute;
-  top: 65vh;
-  left: 55vw;
-  width: 40vw;
-  height: 4vw;
-  padding: 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Inter; /* Body */
-  font-size: 18px;
-  line-height: 28px;
-  color: #ffffffff; /* white */
+.button:last-child {
   background: #335ca6ff;
-  opacity: 1;
-  border: none;
-  border-radius: 8px; /* border-xl */
-  gap: 8px;
-}
-.button2 .icon {
-  width: 24px;
-  height: 24px;
-  fill: #ffffffff; /* white */
-}
-/* Hover */
-.button2:hover {
-  color: #ffffffff; /* white */
-  background: #2a4c89ff;
-}
-/* Pressed */
-.button2:hover:active {
-  color: #ffffffff; /* white */
-  background: #213b6bff;
-}
-/* Disabled */
-.button2:disabled {
-  opacity: 0.4;
 }
 
 /* Text 2 */
 .accountManagment {
-  position: absolute;
-  top: 80vh;
-  left: 58vw;
-  width: 630px;
-  height: 72px;
   font-family: Inter; /* Body */
   font-size: 24px;
   line-height: 36px;
